@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./components/Card";
-import teamData from "./data/team"
+import teamData from "./data/team";
+import CardCounter from "./components/CardCounter";
 import './App.css';
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
   <> 
     <h1>Hello</h1>
    <div>{mappingData}</div>
+  
   </>
  )
  }

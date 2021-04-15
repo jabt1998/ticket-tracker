@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Card.module.scss";
-
+import CardCounter from "../CardCounter"
 
 const Card = (props) => {
   
@@ -17,6 +17,7 @@ return (
   <div className={styles.mainCard}>
     <h2>{name}</h2>
     <h3>{role}</h3>
+    <CardCounter />
   </div>
 )
 }
