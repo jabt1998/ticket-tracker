@@ -1,5 +1,19 @@
 .CardCount {
   border: 2px solid black;
   border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .button {
+    text-align: center;
+  }
   
 }

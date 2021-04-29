@@ -7,7 +7,15 @@ const CardCounter = () => {
 
   const increment = () => setCount(count +1)
 
-  const decrement = () => setCount(count -1)
+  const decrement = () => {
+    if (count <= 0) {
+     return 0
+    } else {
+      return setCount(count -1)
+    }
+  }
+
+  
 
 
 
@@ -16,8 +24,10 @@ const CardCounter = () => {
     <div className={styles.CardCount}> 
      <h2>Counter</h2>
      <p>{count}</p>
+     <div className={styles.button}>
      <button onClick={decrement}>-</button>
      <button onClick={increment}>+</button>
+     </div>
     </div>
   )
 

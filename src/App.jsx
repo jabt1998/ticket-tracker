@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./components/Card";
 import teamData from "./data/team";
-import CardCounter from "./components/CardCounter";
+import styles from "./App.module.scss";
 import './App.css';
 
 const App = () => {
@@ -11,11 +11,12 @@ const App = () => {
  })
 
  return (
-  <> 
-    <h1>Hello</h1>
-   <div>{mappingData}</div>
-  
+  <>
+   <h1>Ticket Tracker</h1>
+    
+   <div className={styles.main}>{mappingData}</div>
   </>
+  
  )
  }
     

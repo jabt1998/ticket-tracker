@@ -1,24 +1,38 @@
 .mainCard {
   background-color: #5DA271;
-  width: 125px;
-  height: 200px;
+  width: 250px;
+  //height: 220px;
   border: 2px solid #C84630;
   border-radius: 10px;
   box-sizing: border-box;
+  padding: 20px;
 
   h2 {
-    font-size: 20px;
+    font-size: 16px;
     margin: 0px;
     padding: 0px;
     color: #E3E3E3;
+    margin: 20px 0;
   }
 
   h3 {
-    font-size: 13px;
+    font-size: 14px;
     margin: 0px;
     padding: 0px;
     display: flex;
     color: #E3E3E3;
+    margin: 20px 0;
   }
 
+  .theCardCounter {
+    justify-content: center;
+
+
+    
+  }
+
+}
+
+.wholeCard {
+  padding: 10px;
 }
